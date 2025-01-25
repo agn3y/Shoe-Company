@@ -609,10 +609,6 @@ video {
   margin-bottom: -2.5rem;
 }
 
-.-ml-64 {
-  margin-left: -16rem;
-}
-
 .-mt-20 {
   margin-top: -5rem;
 }
@@ -659,6 +655,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-14 {
@@ -805,6 +805,10 @@ video {
   scroll-behavior: smooth;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -820,10 +824,6 @@ video {
 
 .bg-\[url\(\'\.\/images\/about-us-background\.png\'\)\] {
   background-image: url('./images/about-us-background.png');
-}
-
-.bg-\[url\(\'\.\/img\/hero-section-image\.png\'\)\] {
-  background-image: url('./img/hero-section-image.png');
 }
 
 .bg-\[url\(\'\.\/img\/roadBackground\.png\'\)\] {
@@ -854,21 +854,6 @@ video {
   padding: 2rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
 }
@@ -892,11 +877,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -925,18 +905,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-normal {
-  font-weight: 400;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.leading-\[48px\] {
-  line-height: 48px;
 }
 
 .leading-\[64px\] {
@@ -998,10 +966,6 @@ video {
     display: none;
   }
 
-  .md\:w-2\/3 {
-    width: 66.666667%;
-  }
-
   .md\:w-32 {
     width: 8rem;
   }
@@ -1036,11 +1000,6 @@ video {
     background-size: contain;
   }
 
-  .md\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1051,18 +1010,9 @@ video {
     line-height: 1;
   }
 
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:leading-\[120px\] {
-    line-height: 120px;
   }
 
   .md\:leading-\[92px\] {
@@ -1086,12 +1036,6 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
