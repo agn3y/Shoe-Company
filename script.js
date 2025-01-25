@@ -1,5 +1,5 @@
 const redirect = document.querySelector("body > footer > div")
 
 redirect.onclick = ()=>{
-    window.location.href = "https://github.com/agn3y";
+    window.open('https://github.com/agn3y','_blank');
 }
